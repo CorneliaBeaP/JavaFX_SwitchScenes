@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="switchSceneButton2" layoutX="213.0" layoutY="289.0" mnemonicParsing="false" onAction="#switchToScene1" text="Ta mig till första fönstret" />
+      <Label fx:id="labelScene2" layoutX="273.0" layoutY="114.0" text="Scene 2" textFill="RED" />
+   </children>
+</AnchorPane>
